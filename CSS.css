@@ -1,0 +1,81 @@
+/* Reset some default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the top-level navigation menu */
+.top-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.top-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.top-menu li a:hover {
+  background-color: #ffcc00;
+  color: black;
+}
+
+/* Style the search bar */
+.search-bar {
+  background-color: #333;
+  padding: 12px;
+  margin-left: auto;
+}
+
+/* Style the banner section */
+.banner {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  border: 10px solid #ffcc00;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white; /* Unselected link color */
+  transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+.footer a:hover {
+  color: yellow; /* Hovered link color */
+}
